@@ -1,63 +1,42 @@
-# 👋 Hey, I'm Denys — Backend & AI Systems Engineer
+# Denys Korolkov
 
-### Building fast cloud apps, automated workflows, and AI-powered solutions that *actually* ship.
+Most teams have a process that only works because one person remembers it.
+I turn that into one the team runs and improves without a developer: clear steps, AI for the predictable parts, a person for the decisions.
 
-I'm a principal-level engineer blending **backend architecture, AI automation, and cloud-native engineering**.
-I help teams turn messy systems into **clean, scalable, and resilient platforms** — and automate everything that slows development down.
+## Now: Routine Run
 
----
+My indie project. An iPhone and Apple Watch app that walks you through a routine one step at a time.
+Describe the routine in a sentence and the app writes it. A PagerDuty page can start a runbook on your wrist.
 
-## ⚡️ What I Do
+- 60+ App Intents, so Siri, Shortcuts, widgets and the Action button all move a run along.
+- An MCP server where the model proposes a routine and a person approves it on the phone. Nothing is written straight from the model.
+- The prompt is built from the same type that reads the answer, and a test reads every example in it back.
+- Models on the device and on Apple Private Cloud Compute. No account, no server of its own for inference.
+- 2,200+ automated tests. Public beta on TestFlight.
 
-* **AI Engineering** — agents, RAG, automation workflows, task orchestration
-* **Backend Architecture** — Node.js, Python, microservices, API design
-* **Cloud & DevOps** — AWS, Kubernetes, CI/CD, IaC, observability
-* **System Modernization** — performance, reliability, DX improvements
-* **Consulting (Prema Vision LLC)** — helping companies ship faster & smarter
+The app's code is closed. The method, help, API, MCP server, Claude skill and catalogues are open in **[routinerun/routine-run](https://github.com/routinerun/routine-run)**. Issues welcome.
+→ [routinerun.com](https://routinerun.com)
 
----
+## Before: Structed AI (CTO, Dec 2025 – Oct 2026)
 
-## 🧩 Featured Projects
+A multi-agent system that runs structured discovery interviews and turns them into requirements.
+The agent asks the questions and checks the answers. It does not summarise a transcript.
 
-### 🔹 Inbox Triage Automation
+- Designed it from scratch with the founder. Audited the contractors' base, ended the outsourcing and took over the engineering.
+- Multi-agent LangGraph pipeline, 16 professions and close to 100 specializations in its taxonomy.
+- Prompts live in LangSmith Hub with pinned versions, so a prompt change needs no redeploy.
+- A separate prompt-injection layer on the interviewing agent.
+- 1,400+ automated tests.
 
-Smart email triage system that classifies, prioritizes, and routes messages using AI-driven rules and backend automation. Built with Node.js, Python, and serverless functions for seamless integration with Gmail and Slack.
+The code is private.
 
-### 🔹 Prema Vision AI Automations
+## Before that
 
-Internal portfolio of AI tools: CRM overlays, contract analyzers, anomaly bots, LinkedIn automation, and more.
+15+ years of backend and frontend work, including BigPanda (alert correlation at scale) and Autodesk (the checkout flow, where an error nobody sees costs money).
 
-### 🔹 AI-Powered LinkedIn Outreach
+## Work with me
 
-TypeScript + Vercel + serverless automation for professional outreach and lead generation.
+I take one AI process project at a time, through Prema Vision LLC.
+[korolkov.pro](https://korolkov.pro) · [premavision.net](https://premavision.net) · [LinkedIn](https://www.linkedin.com/in/denyskorolkov/) · denys@premavision.net
 
----
-
-## 🛠 Tech I Work With
-
-**Node.js • Python • TypeScript • React • Vite • Next.js**
-**AWS • Kubernetes • ArgoCD • GitHub Actions • DynamoDB • MongoDB**
-**LangChain • Agents • Vector Stores • Playwright • Jest**
-
----
-
-## 🚀 Current Focus
-
-* Building AI-powered developer tools
-* Designing automation backends for business workflows
-* Scaling cloud apps with clean, production-first architecture
-* Growing Prema Vision’s consulting and AI automation portfolio
-
----
-
-## 🌐 Links
-
-* Website: **[https://korolkov.pro](https://korolkov.pro)**
-* Email: **[denys.korolkov@gmail.com](mailto:denys.korolkov@gmail.com)**
-* Company: **Prema Vision LLC**
-
----
-
-## 🥷 Fun Fact
-
-I automate the boring parts of engineering so developers can focus on the interesting ones.
+Which process in your team stops the week one person is on holiday?
