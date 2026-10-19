@@ -32,8 +32,8 @@ The whole method, with the research behind each idea and what it does not claim:
 
 ## Before: Structed AI (CTO, Dec 2025 – Oct 2026)
 
-A multi-agent system that runs structured discovery interviews and turns them into requirements.
-The agent asks the questions and checks the answers. It does not summarise a transcript.
+Structed talks to your client for you and hands back a detailed project brief after one interview, even when the client can't explain what they need.
+Under the hood the agent asks the questions and checks the answers. It does not summarise a transcript.
 
 - Designed it from scratch with the founder. Audited the contractors' base, ended the outsourcing and took over the engineering.
 - Multi-agent LangGraph pipeline, 16 professions and close to 100 specializations in its taxonomy.
